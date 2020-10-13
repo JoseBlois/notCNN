@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ededed;
+}
+article{
+    width: 650px;
+}
+.link{
+    color: #dc191b;;
+    text-decoration: none;
+}
+.article-title{
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 6px;
+}
+.byline{
+    display: inline-block;
+    font-size: 13px;
+    line-height: 23px;
+    margin-bottom: 6px;
+}
+.article-subtitle{
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.image-in-article{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.image-in-article img{
+    width: 100%;
+}
+.image-in-article figcaption{
+    margin-top: 10px;
+    font-size: 13px;
+}
