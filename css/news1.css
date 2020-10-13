@@ -6,24 +6,30 @@ body{
     background-color: #f1f1f1
 }
 article{
-    width: 60%;
+    width: 65%;
     margin: auto;
     background-color: #ffffff;
     padding: 0px 32px;
 }
 article header .title{
     font-size: 48px ;
+    padding: 0px;
     color: #141414;
     line-height: 1.2;
+    font-family: 'Signika Negative', sans-serif;
     margin-bottom: 18px;
-    font-weight: 400;
-    letter-spacing: -1px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+abbr{
+    text-decoration: none;
 }
 article header .subtitle{
     font-size: 20px;
     color: #626262;
     line-height: 1.4;
     margin-bottom: 18px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 .article-link{
@@ -34,29 +40,32 @@ article header .subtitle{
     color: #f6c155;
 }
 .author-container{
-    padding: 5px 0px;
+    padding: 5px 16px;
     border-bottom: 1px solid #e0e0e0;
     border-top: 1px solid #e0e0e0;
     color: #494949;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
 .publication-date{
     font-size: 11px;
 }
 .content-column{
-    width: 80%;
+    width: 70%;
 }
 .in-article-image{
     width: 100%;
     margin-bottom: 32px;
 }
 .list-title{
+    font-size: 16px;
     margin-bottom: 18px;
 }
 .author-container small{
+    color: #141414;
     display: block;
-    margin: 5px;
-    padding: 0px 16px;
+    margin: 6px;
+    padding: 4px 16px;
     position: relative;
     left: 350px;
     font-size: 15px;
@@ -65,20 +74,23 @@ article header .subtitle{
 .in-article-image img{
     width: 100%;
 }
-figure figcaption {
+.in-article-image figcaption {
     font-size: 11px;
     color: #141414;
 }
-figure figcaption b{
+.in-article-image figcaption b{
     font-size: 14px;
     font-weight: 700;
     color: #2c2c2c;
+}
+.content-column{
+    font-family: 'Open Sans', sans-serif;
 }
 .content-column p{
     line-height: 1.8;
     font-size: 16px;
     color: #141414;
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
 .content-column ul,ol{
     padding: 0px;
