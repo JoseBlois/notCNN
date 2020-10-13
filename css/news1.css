@@ -6,7 +6,7 @@ body{
     background-color: #f1f1f1
 }
 article{
-    width: 65%;
+    width: 66%;
     margin: auto;
     background-color: #ffffff;
     padding: 0px 32px;
@@ -15,11 +15,11 @@ article header .title{
     font-size: 48px ;
     padding: 0px;
     color: #141414;
-    line-height: 1.2;
+    line-height: 58px;
     font-family: 'Signika Negative', sans-serif;
     margin-bottom: 18px;
     font-weight: 700;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 abbr{
     text-decoration: none;
@@ -27,7 +27,7 @@ abbr{
 article header .subtitle{
     font-size: 20px;
     color: #626262;
-    line-height: 1.4;
+    line-height: 30px;
     margin-bottom: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -65,7 +65,7 @@ article header .subtitle{
     color: #141414;
     display: block;
     margin: 6px;
-    padding: 4px 16px;
+    padding: 3px 16px;
     position: relative;
     left: 350px;
     font-size: 15px;
@@ -87,7 +87,7 @@ article header .subtitle{
     font-family: 'Open Sans', sans-serif;
 }
 .content-column p{
-    line-height: 1.8;
+    line-height: 29px;
     font-size: 16px;
     color: #141414;
     margin-bottom: 12px;

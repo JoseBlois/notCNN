@@ -7,13 +7,16 @@ body{
     background-color: #ededed;
 }
 article{
-    width: 650px;
+    width: 750px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333
 }
 .link{
     color: #dc191b;;
     text-decoration: none;
 }
 .article-title{
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 42px;
     line-height: 50px;
     margin-bottom: 6px;
@@ -21,11 +24,12 @@ article{
 .byline{
     display: inline-block;
     font-size: 13px;
-    line-height: 23px;
+    line-height: 24px;
     margin-bottom: 6px;
 }
 .article-subtitle{
     color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     margin-bottom: 18px;
 }
@@ -39,4 +43,41 @@ article{
 .image-in-article figcaption{
     margin-top: 10px;
     font-size: 13px;
+}
+article p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+article table{
+    border-collapse: collapse;
+}
+.table-title{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 14px;
+    background-color: #fff;
+}
+.table-head tr{
+    height: 73px;
+    color: #fff;
+    background-color: #0f1618;
+}
+.table-head tr th{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.table-body tr:nth-child(odd){
+    background-color: #fff;
+}
+.table-body tr{
+    height: 58px;
+}
+.table-body tr td{
+    padding: 14px;
+    font-size: 15px;
+    line-height: 15px;
 }
