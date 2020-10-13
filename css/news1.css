@@ -11,6 +11,10 @@ article{
     background-color: #ffffff;
     padding: 0px 32px;
 }
+footer{
+    width: 66%;
+    margin: 50px auto;
+}
 article header .title{
     font-size: 48px ;
     padding: 0px;
@@ -99,4 +103,15 @@ article header .subtitle{
 .content-column ul li,ol li{
     margin-left: 20px;
     margin-bottom: 18px ;
+}
+.next-article-link{
+    color: #fff;
+    background-color: #f1bb00;
+    padding: 20px;
+    text-decoration: none;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+.next-article-link:hover{
+    background-color: #f6c155;
 }

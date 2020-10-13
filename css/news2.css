@@ -14,6 +14,9 @@ article{
     color: #333;
     margin-bottom: 40px;
 }
+footer{
+    margin-bottom: 50px;
+}
 .link{
     color: #dc191b;;
     text-decoration: none;
@@ -110,4 +113,15 @@ article table{
     line-height: 24px;
     color: #333;
     font-size: 16px;
+}
+.next-article-link{
+    color: #fff;
+    background-color: #dc191b;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.next-article-link:hover{
+    background-color: #ec292b;
 }
